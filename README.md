@@ -10,7 +10,7 @@ Supported in Python3 only.
     - beautifulsoup4 module of python :- Install it using command ```pip install beautifulsoup4``` in terminal.
     
     
-- Download ZIP file for the repository/Clone the repository.
+- Download ZIP file of repository or Clone the repository.
 
 - If using for first time and your system is in proxy network then
 
@@ -25,6 +25,10 @@ Supported in Python3 only.
     - Use  ```python episode.py -dl show_name```
     
     - Download format is .mp4
+    
+- To get list of all available shows in mp4 quality.
+    
+    - Use ```python episode.py -l```
 
 - For Help
     
