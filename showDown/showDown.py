@@ -1,6 +1,7 @@
 #!/usr/bin/python
 from download import Downloader
-import urllib.request as urllib2
+#import urllib.request as urllib2
+import urllib2
 import bs4
 import os 
 import time 

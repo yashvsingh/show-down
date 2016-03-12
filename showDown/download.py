@@ -1,6 +1,7 @@
 import sys  
 import os
-import urllib.request as urllib2
+#import urllib.request as urllib2
+import urllib2
 
 class Downloader(object):
 
