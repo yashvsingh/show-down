@@ -54,7 +54,7 @@ class showDown:
             self.getVideoLink()
             print ("The file in latest available is : %s"%(self.filename))
 
-            response = input("Do you wanna download it (y or n): ")
+            response = raw_input("Do you wanna download it (y or n): ")
             if response=='y' or response=='Y':     
                 video = Downloader()
                 video.download(url = self.url ,filename = self.filename)
